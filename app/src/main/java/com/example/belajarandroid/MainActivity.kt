@@ -54,7 +54,13 @@ fun ComposeQuadrantApp() {
             ComposableInfoCard(
                 title = "Satu",
                 description = "dua",
-                backgroundColor = Color.Yellow,
+                backgroundColor = Color.Cyan,
+                modifier = Modifier.weight(1f)
+            )
+            ComposableInfoCard(
+                title = "Satu",
+                description = "dua",
+                backgroundColor = Color.Cyan,
                 modifier = Modifier.weight(1f)
             )
         }
@@ -71,7 +77,13 @@ fun ComposeQuadrantApp() {
             ComposableInfoCard(
                 title = "Satu",
                 description = "dua",
-                backgroundColor = Color.LightGray,
+                backgroundColor = Color.Cyan,
+                modifier = Modifier.weight(1f)
+            )
+            ComposableInfoCard(
+                title = "Satu",
+                description = "dua",
+                backgroundColor = Color.Cyan,
                 modifier = Modifier.weight(1f)
             )
         }
