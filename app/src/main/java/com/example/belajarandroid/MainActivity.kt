@@ -51,20 +51,20 @@ fun ComposeQuadrantApp() {
             modifier = Modifier.weight(1f)
         ) {
             ComposableInfoCard(
-                title = "Luffy",
-                description = "Captain",
+                title = stringResource(R.string.luffy),
+                description = stringResource(R.string.luffy_desc),
                 backgroundColor = Color(0xFFe0091f),
                 modifier = Modifier.weight(1f)
             )
             ComposableInfoCard(
-                title = "Zoro",
-                description = "Swordman",
+                title = stringResource(R.string.zoro),
+                description = stringResource(R.string.zoro_desc),
                 backgroundColor = Color(0xFF388518),
                 modifier = Modifier.weight(1f)
             )
             ComposableInfoCard(
-                title = "Sanji",
-                description = "Chef",
+                title = stringResource(R.string.chef),
+                description = stringResource(R.string.chef_desc),
                 backgroundColor = Color.Yellow,
                 modifier = Modifier.weight(1f)
             )
@@ -74,20 +74,20 @@ fun ComposeQuadrantApp() {
             modifier = Modifier.weight(1f)
         ) {
             ComposableInfoCard(
-                title = "Nami",
-                description = "Naigator",
+                title = stringResource(R.string.nami),
+                description = stringResource(R.string.nami_desc),
                 backgroundColor = Color(0xfff7521b) ,
                 modifier = Modifier.weight(1f)
             )
             ComposableInfoCard(
-                title = "Chopper",
-                description = "Doctor",
+                title = stringResource(R.string.chopper),
+                description = stringResource(R.string.chopper_desc),
                 backgroundColor = Color(0xfff57fd4),
                 modifier = Modifier.weight(1f)
             )
             ComposableInfoCard(
-                title = "Usop",
-                description = "Sniper",
+                title = stringResource(R.string.usop),
+                description = stringResource(R.string.usop_desc),
                 backgroundColor = Color(0xfff7bd48),
                 modifier = Modifier.weight(1f)
             )
